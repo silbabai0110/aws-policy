@@ -1,10 +1,12 @@
 # Import tfplan-functions.sentinel with alias "plan"
 import "tfplan-functions" as plan
 
+param max_type default "test"
+
 # Allowed EC2 Instance Types
 allowed_types = ["t2.micro", "t2.medium", "t2.large"]
 
-param max_type default "test"
+
 print(max_type)
 value = "test1"
 print(value)
