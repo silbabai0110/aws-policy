@@ -1,5 +1,5 @@
 module "tfplan-functions" {
-  source = "https://github.com/hashicorp/terraform-sentinel-policies/blob/main/common-functions/tfplan-functions/tfplan-functions.sentinel"
+  source = "https://raw.githubusercontent.com/hashicorp/terraform-sentinel-policies/main/common-functions/tfplan-functions/tfplan-functions.sentinel"
 }
 
 policy "restrict-ec2-instance-type" {
